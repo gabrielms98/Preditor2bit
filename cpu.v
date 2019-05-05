@@ -135,12 +135,12 @@ memread_s4,		/* mem_memread */
 
 	assign b = branch_eq;
 
-	always @(*) begin 
-		if((b == 1'b0) && (H == 1'b0)) begin
-		mux_PC <= 2'd0;
-		Wrt <= 1'd0;
-		end else if ((b == 1'b0) &&)
-	end
+	//always @(*) begin 
+	//	if((b == 1'b0) && (H == 1'b0)) begin
+	//	mux_PC <= 2'd0;
+	//	Wrt <= 1'd0;
+	//	end else if ((b == 1'b0) &&)
+	//end
 	// instruction memory
 	wire [31:0] inst;
 	wire [31:0] inst_s2;
