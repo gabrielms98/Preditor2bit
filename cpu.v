@@ -130,10 +130,10 @@ memread_s4,		/* mem_memread */
 	reg #(.N(2)) regr_HP(.clk(clk), .hold(stall_s1_s2), .clear(flush_s1), .in({H,P}), .out({Hd,Pd}));
 
 
-	wire Wrt, Wrp;
-	wire b;
+	//wire Wrt, Wrp;
+	//wire b;
 
-	assign b = branch_eq;
+	//assign b = branch_eq;
 
 	//always @(*) begin 
 	//	if((b == 1'b0) && (H == 1'b0)) begin
