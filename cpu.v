@@ -23,6 +23,7 @@
 `include "alu_control.v"
 `include "dm.v"
 `include "branch_unit.v"
+`include "branch_table.v"
 
 `ifndef DEBUG_CPU_STAGES
 `define DEBUG_CPU_STAGES 1
