@@ -300,8 +300,8 @@ memread_s4,		/* mem_memread */
 	wire zero_s3;
 
 	//RESULTADO COMPARAÇÃO ALU
-	wire c;
-	assign c = (data1 == data2);
+	//wire c;
+	//assign c = (data1 == data2);
 
 	alu alu1(.ctl(aluctl), .a(fw_data1_s3), .b(alusrc_data2), .out(alurslt),
 									.zero(zero_s3));
